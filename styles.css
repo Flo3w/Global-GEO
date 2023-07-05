@@ -1,0 +1,32 @@
+body {
+    background: #010125;
+    color: #e4e4e4;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    border: 7px solid #e4e4e4;
+    background: #212145;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    border: 7px solid #212145;
+    background: #e4e4e4;
+    color: #212145;
+}
